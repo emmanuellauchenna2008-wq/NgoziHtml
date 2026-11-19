@@ -1,0 +1,53 @@
+/* CSS provides many ways to define colours
+ namely: 1. Normal color 2. RGB(Red, Green, Blue)
+ 3. RGBA ( Red, Green ,Blue, with Alpha / transparency)
+ 4.Hexadecimal 5. HSL( Hue, Saturation , lightness)
+ 6.HSLA(HSL with alpha/transparency)*/
+ .normal{
+    color: blue;
+ }
+ .rgb{
+    color: rgb(255, 255,255);
+    background-color:black ;
+ }
+ .rgba{
+    color: rgba(255, 0, 0, 0.7);
+ }
+ .hexadecimal{
+    color: #b731e7;
+ }
+ .hsl{
+    color: hsl(60, 100%, 10%);
+ }
+ .hsla{
+    color: hsla(0, 100%, 70%, 0.5);
+ }
+ /* Background image */
+ .bgimage{
+    width: 300px;
+    height: 200px;
+    background-image: url(../aprildesign.jpg);
+    background-size: cover;
+ }
+ /* body{
+   background-image: url(../aprildesign.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ } */
+ /* Gradient backgrounds */
+ /* 1. Linear gradient: A linear gradient
+ transitions colors in a staright line. */
+ /* 2. Radial Gradient : A radial gradient 
+ spreads colors from the center. */
+ .linear{
+   width: 200px;
+   height: 200px;
+   background: linear-gradient(to top, red, blue, green);
+ }
+ .gradient{
+   width: 200px;
+   height: 200px;
+   background: radial-gradient( yellow, green, purple, red);
+   margin-top: 10px;
+ }

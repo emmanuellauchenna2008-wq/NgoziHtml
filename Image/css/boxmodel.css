@@ -1,0 +1,11 @@
+/* The box - shawdow property is use to  add shawdow effect 
+around an element's box , giving it depth or a lifted apperance.*/
+/* box shadow basic syntax: */
+/* box- shadow; offset-x offset-y blur radius spread radius */
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px blue, -3px -4px 5px blue;
+
+}

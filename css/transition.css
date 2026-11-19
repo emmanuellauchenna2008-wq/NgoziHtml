@@ -1,0 +1,101 @@
+/*  */
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: orangered;
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5ms; */
+    transition: all 2s ease 0.5s;
+}
+.box:hover{
+    width: 400px;
+    background-color: blue;
+}
+.bx{
+    width: 200px;
+    height: 200px;
+ transition: all 2s ease-in-out; 
+}
+.translate-box{
+    /* background-color: coral; */
+    background-image: url(../Image/aprildesign.jpg);
+    background-size: contain;
+}
+.translate-box:hover{
+    transform: translate(50px, 20px);
+}
+.rotate-box{
+    background-color: purple
+}
+.rotate-box:hover{
+    transform: rotate(90deg);
+}
+.scale-box{
+    background-color: green;
+}
+.scale-box:hover{
+    transform: scale(-1.5,-1.5);
+    /* transform: scale(0.5,0.3); */
+}
+.skew-box
+{
+    background-color: blue;
+}
+.skew-box:hover{
+    transform: skew(30deg, 20deg);
+    transform: skewX(30deg);
+}
+.combine-transform{
+    background-color: red;
+}
+.combine-transform:hover{
+    transform: translate(50px, 20px)
+    rotate(45deg) scale(0.5);
+}
+/* assignment: Make your design profile card to scale up and rotate slightly when hovered */
+.animate-box{
+    background-color: darkblue;
+    animation-name: colorchange;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    transform-origin: all 5s ease-in-out;
+}
+.animate-text{
+    font-size: 1.5rem;
+    color: black;
+    animation: fadeinout 3s ease-in-out infinite;
+}
+/* @keyframes: defines how an element styles change at different points during animations  */
+@keyframes colorchange{
+    0%{
+      background-color: aqua;
+     transform: translatex(0);
+    }
+    25%{
+        background-color: yellow;
+        transform: translateX(100px);
+    }
+    50%{
+        background-color: brown;
+        transform: translateX(200px);
+    }
+    100%{
+        background-color: pink;
+        transform: translateX(0);
+    }
+}   
+@keyframes fadeinout{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

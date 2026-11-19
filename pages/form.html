@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form html</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="">
+        <h2>Application Form</h2>
+      <div>
+          <label for="name" >
+            Name:
+        </label>
+        <input type="text" name="" id="" required>
+      </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="">
+        </div>
+        <div>
+            <label for="phone">phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="dob">date of birth</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="profile">upload  profile pics</label>
+            <input type="file" name="profile" id="profile">
+        </div>
+        <div>
+            <p>select your hobbies</p>
+            
+         <label for="sports">sports</label>
+                     <input type="checkbox" name="hobbies" id="hobbies">
+                     <label for="music">music</label>
+                     <input type="checkbox" name="hobbies" id="music">
+                     <label for="Travel">Travel</label>
+                     <input type="checkbox" name="hobbies" id="Travel">
+        </div>
+                  <!-- radio button -->
+                   <div>
+                    <p>Select your gender</p>
+                   <input type="radio" name="gender" id="male">
+                   <label for="male">Male</label>
+                   <input type="radio" name="gender" id="female">
+                   <label for="female">Female</label>
+                   <input type="radio" name="gender" id="other">
+                   <label for="other">other</label>
+                   </div>
+                   <div>
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="select">Select country</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="south africa">South Africa</option>
+                    </select>
+                   </div>
+                   <!-- textarea: This is used to allow 
+                    user to enter multiple lines of text -->
+                    <div>
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" placeholder="comment"></textarea>
+                    </div>
+        <button type="submit">submit</button>
+        <!-- feild set -->
+         <!-- field set are use to group related forms controls this improves the organisation and asscessibility of items -->
+          <fieldset>
+            <legend>school information</legend>
+            <div>
+                <label for="schoolName">schoolName</label>
+                <input type="text" name="" id="">
+                <br>
+                <label for="dept">Department</label>
+                <p>Select Course</p>
+                <input type="checkbox" name="" id="">
+                <label for="english">English</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="mathematics">Mathematics</label>
+            </div>
+          </fieldset>
+          <input type="button" value="Apply">
+          <input type="search" name="" id="">
+          <input type="reset" value="clear">
+          <input type="submit" value="submit">
+          <button type="button" disabled>button</button>
+          <button type="reset">reset</button>
+    </form>
+</body>
+</html>

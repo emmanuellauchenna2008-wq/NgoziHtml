@@ -1,0 +1,27 @@
+.family{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.size{
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.align{
+    text-align: center;
+    text-decoration: underline double;
+    text-transform: uppercase;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.line{
+    line-height: 1.5;
+    /* letter-spacing: 4px; */
+    word-spacing: 10px;
+    text-shadow: 0px 0px 4px red;
+}
+.shawdow{
+    text-shadow: 0px 0px 5px red, 0px 0px 10px red, 
+    0px 0px 20px red;
+}

@@ -1,0 +1,36 @@
+.block{
+    display: inline;
+}
+.inline{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    color: white;llllllllllllllllllllllllllllllllllllllllllllllllll
+    padding: 10px;
+}
+.container{
+    display: flex;
+    background-color: aqua;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: brown;
+color: white;
+padding: 20px;
+margin: 5px;
+}
+/* align-items: This aligns items vertically */
+/* flex-wrap: this specifies whether items should wrap to the next line if there is not enough space. */
+
+
+
+
+

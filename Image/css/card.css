@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+.card{
+    width: 200px;
+    height: 360px;
+    margin: auto;
+    box-shadow:5px 5px 5px blue,-3px -4px 8px blue ;
+}
+.white{
+    background-color: white;
+    margin-top: -4px;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.space{
+    text-align: center;
+    padding: 10px;
+}
